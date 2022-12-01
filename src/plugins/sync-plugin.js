@@ -247,7 +247,7 @@ const restoreRelativeSelection = (tr, relSel, binding) => {
       binding.mapping
     )
     if (anchor !== null && head !== null) {
-      tr = tr.setSelection(TextSelection.create(tr.doc, anchor, head)) 
+      tr = tr.setSelection(TextSelection.create(tr.doc, anchor, head))
     }
   }
 }
